@@ -12,4 +12,4 @@ def stuRecord(course, *subjects, **details):
     print("Subjects:", subjects)
     print("Student Details:", details)
     
-stuRecord("btech", "math", "oops", "dsa", name="bhavishya", age=19)
+stuRecord("btech", "math", "oops", "dsa", name="adarsh", age=19)

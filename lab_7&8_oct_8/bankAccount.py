@@ -38,7 +38,7 @@ class bankAccount:
         print("Bank Fees (5%):", self.bankFees())
         print()
 
-account = bankAccount(12345, "Bhavishya", 1000)
+account = bankAccount(12345, "adarsh", 1000)
 account.display()
 account.deposit(1000)
 account.display()

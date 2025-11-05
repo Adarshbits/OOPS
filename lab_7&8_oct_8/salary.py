@@ -27,7 +27,7 @@ class salary_slip:
         print("Total Salary (with allowances):", self.calculate_salary())
         print()
 
-emp1 = salary_slip("bhavishya", 12345, 100000)
-emp2 = salary_slip("aryan", 67890, 12000)
+emp1 = salary_slip("arun", 12345, 100000)
+emp2 = salary_slip("angelica", 67890, 12000)
 emp1.display()
 emp2.display()

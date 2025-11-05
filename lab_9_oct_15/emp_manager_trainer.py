@@ -46,9 +46,9 @@ class trainer(emp, certification):
         emp.print_emp(self)
         certification.print_cert(self)
 
-manager_obj = manager("Bhavishya", 19, 12345, 1000000, "CSE")
+manager_obj = manager("zoha", 19, 12345, 1000000, "CSE")
 manager_obj.print_manager()
 print()
-trainer_obj = trainer("Aryan", 25, 67890, 50000, "IT")
+trainer_obj = trainer("angelica", 25, 67890, 50000, "IT")
 print("Trainer Details:")
 trainer_obj.print_trainer()

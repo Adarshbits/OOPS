@@ -31,10 +31,10 @@ class class_teacher(teacher):
         super().print_teacher()
         print(self.class_teacher_of)
 
-class_teacher1 = class_teacher("bhavishya", 25, ["A", "C", "K"], "K")
+class_teacher1 = class_teacher("angelica", 25, ["A", "C", "K"], "K")
 class_teacher1.print_class_teacher()
 print()
 class_teacher1.print_person()
 print()
-regular_teacher = teacher("aryan", 40, ["G"])
+regular_teacher = teacher("zoha", 40, ["G"])
 regular_teacher.print_teacher()
